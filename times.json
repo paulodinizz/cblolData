@@ -1,0 +1,152 @@
+[
+	{
+		"id": 1,
+		"sigla": "LOS",
+		"time": "LosGrandes",
+		"nome_completo": "Los Grandes",
+		"icone": "los.png",
+		"escalacao": {
+			"topo": "HiRit",
+			"selva": "Ranger",
+			"meio": "Lava",
+			"atirador": "Netuno",
+			"suporte": "Zay"
+		},
+		"jogadores": ["hirit", "ranger", "lava", "netuno", "zay"]
+	},
+	{
+		"id": 2,
+		"sigla": "FUR",
+		"time": "FURIA",
+		"nome_completo": "FURIA Esports",
+		"icone": "fur.png",
+		"escalacao": {
+			"topo": "FNB",
+			"selva": "Goot",
+			"meio": "Envy",
+			"atirador": "Trigo",
+			"suporte": "Redbert"
+		},
+		"jogadores": ["fnb", "goot", "envy", "trigo", "redbert"]
+	},
+	{
+		"id": 3,
+		"sigla": "ITZ",
+		"time": "INTZ",
+		"nome_completo": "INTZ",
+		"icone": "itz.png",
+		"escalacao": {
+			"topo": "Zzk",
+			"selva": "Yampi",
+			"meio": "NOsFerus",
+			"atirador": "NinjaKiwi",
+			"suporte": "Mia"
+		},
+		"jogadores": ["Zzk", "yampi", "nosferus", "ninjakiwi", "mia"]
+	},
+	{
+		"id": 4,
+		"sigla": "KBM",
+		"time": "KaBuM!",
+		"nome_completo": "KaBuM! Esports",
+		"icone": "kbm.png",
+		"escalacao": {
+			"topo": "Lonely",
+			"selva": "Enel",
+			"meio": "Yuri",
+			"atirador": "DudsTheBoy",
+			"suporte": "Scuro"
+		},
+		"jogadores": ["lonely", "enel", "yuri", "DudsTheBoy", "scuro"]
+	},
+	{
+		"id": 5,
+		"sigla": "LBR",
+		"time": "Liberty",
+		"nome_completo": "Liberty",
+		"icone": "lbr.png",
+		"escalacao": {
+			"topo": "KiaRi",
+			"selva": "Accez",
+			"meio": "Piloto",
+			"atirador": "Disave",
+			"suporte": "Cavalo"
+		},
+		"jogadores": ["kiari", "accez", "piloto", "disave", "cavalo"]
+	},
+	{
+		"id": 6,
+		"sigla": "LLL",
+		"time": "LOUD",
+		"nome_completo": "LOUD",
+		"icone": "lll.png",
+		"escalacao": {
+			"topo": "Robo",
+			"selva": "Croc",
+			"meio": "tinowns",
+			"atirador": "Route",
+			"suporte": "ceos"
+		},
+		"jogadores": ["robo", "croc", "tinowns", "route", "ceos"]
+	},
+	{
+		"id": 7,
+		"sigla": "KEYD",
+		"time": "Vivo Keyd",
+		"nome_completo": "Vivo Keyd Starts",
+		"icone": "keyd.png",
+		"escalacao": {
+			"topo": "Guigo",
+			"selva": "Hugato",
+			"meio": "Grevthar",
+			"atirador": "micaO",
+			"suporte": "Bounty"
+		},
+		"jogadores": ["guigo", "hugato", "grevthar", "micao", "bounty"]
+	},
+	{
+		"id": 8,
+		"sigla": "PNG",
+		"time": "paiN Gaming",
+		"nome_completo": "paiN Gaming",
+		"icone": "png.png",
+		"escalacao": {
+			"topo": "Wizer",
+			"selva": "CarioK",
+			"meio": "dyNquedo",
+			"atirador": "Bvoy",
+			"suporte": "Damage"
+		},
+		"jogadores": ["wizer", "cariok", "dynquedo", "bvoy", "damage"]
+	},
+	{
+		"id": 9,
+		"sigla": "RED",
+		"time": "RED Kalunga",
+		"nome_completo": "RED Kalunga",
+		"icone": "red.png",
+		"escalacao": {
+			"topo": "Boal",
+			"selva": "Aegis",
+			"meio": "Avenger",
+			"atirador": "TitaN",
+			"suporte": "Kuri"
+		},
+		"jogadores": ["boal", "aegis", "avenger", "titan", "kuri"]
+	},
+	{
+		"id": 10,
+		"sigla": "FX",
+		"time": "FLUXO",
+		"nome_completo": "Fluxo",
+		"icone": "fx.png",
+		"escalacao": {
+			"topo": "Tay",
+			"selva": "Disamis",
+			"meio": "Hauz",
+			"atirador": "Brance",
+			"suporte": "Vahvel"
+		},
+		"jogadores": ["tay", "disamis", "hauz", "brance", "vahvel"]
+	}
+]

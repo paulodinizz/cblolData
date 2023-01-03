@@ -1,0 +1,236 @@
+[
+    {
+        "semana": 1,
+        "rodada": 1,
+        "dia": "SÁB",
+        "data": "21/01/2023",
+        "jogos": [
+            "LLL x PNG",
+            "LBR x KBM",
+            "LOS x FX",
+            "RED x ITZ",
+            "KEYD x FUR"
+        ]
+    },
+    {
+        "semana": 1,
+        "rodada": 2,
+        "dia": "DOM",
+        "data": "22/01/2023",
+        "jogos": [
+            "LOS x RED",
+            "FUR x ITZ",
+            "PNG x KEYD",
+            "KBM x LLL",
+            "FX x LBR"
+        ]
+    },
+    {
+        "semana": 2,
+        "rodada": 3,
+        "dia": "SÁB",
+        "data": "28/01/2023",
+        "jogos": [
+            "LLL x FX",
+            "ITZ x KBM",
+            "FUR x LBR",
+            "PNG x RED",
+            "KEYD x LOS"
+        ]
+    },
+    {
+        "semana": 2,
+        "rodada": 4,
+        "dia": "DOM",
+        "data": "29/01/2023",
+        "jogos": [
+            "LBR x ITZ",
+            "LOS x PNG",
+            "RED x KEYD",
+            "LLL x FUR",
+            "FX x KBM"
+        ]
+    },
+    {
+        "semana": 3,
+        "rodada": 5,
+        "dia": "SÁB",
+        "data": "04/02/2023",
+        "jogos": [
+            "PNG x FX",
+            "KEYD x LBR",
+            "KBM x FUR",
+            "ITZ x LOS",
+            "RED x LLL"
+        ]
+    },
+    {
+        "semana": 3,
+        "rodada": 6,
+        "dia": "DOM",
+        "data": "05/02/2023",
+        "jogos": [
+            "FUR x FX",
+            "ITZ x PNG",
+            "LBR x LOS",
+            "KEYD x LLL",
+            "KBM x RED"
+        ]
+    },
+    {
+        "semana": 4,
+        "rodada": 7,
+        "dia": "SÁB",
+        "data": "11/02/2023",
+        "jogos": [
+            "RED x LBR",
+            "FX x KEYD",
+            "PNG x FUR",
+            "LOS x KBM",
+            "LLL x ITZ"
+        ]
+    },
+    {
+        "semana": 4,
+        "rodada": 8,
+        "dia": "DOM",
+        "data": "12/02/2023",
+        "jogos": [
+            "KEYD x KBM",
+            "LOS x LLL",
+            "FUR x RED",
+            "FX x ITZ",
+            "LBR x PNG"
+        ]
+    },
+    {
+        "semana": 5,
+        "rodada": 9,
+        "dia": "SÁB",
+        "data": "18/02/2023",
+        "jogos": [
+            "FUR x LOS",
+            "RED x FX",
+            "KBM x PNG",
+            "ITZ x KEYD",
+            "LBR x LLL"
+        ]
+    },
+    {
+        "semana": 5,
+        "rodada": 10,
+        "dia": "DOM",
+        "data": "19/02/2023",
+        "jogos": [
+            "ITZ x RED",
+            "FX x LOS",
+            "FUR x KEYD",
+            "PNG x LLL",
+            "KBM x LBR"
+        ]
+    },
+    {
+        "semana": 6,
+        "rodada": 11,
+        "dia": "SÁB",
+        "data": "25/02/2023",
+        "jogos": [
+            "KEYD x PNG",
+            "LLL x KBM",
+            "RED x LOS",
+            "LBR x FX",
+            "ITZ x FUR"
+        ]
+    },
+    {
+        "semana": 6,
+        "rodada": 12,
+        "dia": "DOM",
+        "data": "26/02/2023",
+        "jogos": [
+            "FX x LLL",
+            "LBR x FUR",
+            "RED x PNG",
+            "LOS x KEYD",
+            "KBM x ITZ"
+        ]
+    },
+    {
+        "semana": 7,
+        "rodada": 13,
+        "dia": "SÁB",
+        "data": "04/03/2023",
+        "jogos": [
+            "ITZ x LBR",
+            "KBM x RED",
+            "FUR x LLL",
+            "KBM x FX",
+            "PNG x LOS"
+        ]
+    },
+    {
+        "semana": 7,
+        "rodada": 14,
+        "dia": "DOM",
+        "data": "05/03/2023",
+        "jogos": [
+            "FUR x KBM",
+            "LLL x RED",
+            "LOS x ITZ",
+            "LBR x KEYD",
+            "FX x PNG"
+        ]
+    },
+    {
+        "semana": 8,
+        "rodada": 15,
+        "dia": "SÁB",
+        "data": "11/03/2023",
+        "jogos": [
+            "LLL x KEYD",
+            "FX x FUR",
+            "RED x KBM",
+            "LOS x LBR",
+            "PNG x ITZ"
+        ]
+    },
+    {
+        "semana": 8,
+        "rodada": 16,
+        "dia": "DOM",
+        "data": "12/03/2023",
+        "jogos": [
+            "KBM x LOS",
+            "FUR x PNG",
+            "LBR x RED",
+            "ITZ x LOUD",
+            "KEYD x FX"
+        ]
+    },
+    {
+        "semana": 9,
+        "rodada": 17,
+        "dia": "SÁB",
+        "data": "18/03/2023",
+        "jogos": [
+            "LOUD x LOS",
+            "PNG x LBR",
+            "ITZ x FX",
+            "KBM x KEYD",
+            "RED x FUR"
+        ]
+    },
+    {
+        "semana": 9,
+        "rodada": 18,
+        "dia": "DOM",
+        "data": "19/03/2023",
+        "jogos": [
+            "PNG x KBM",
+            "LLL x LBR",
+            "KEYD x ITZ",
+            "FX x RED",
+            "LOS x FUR"
+        ]
+    }
+]
