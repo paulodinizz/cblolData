@@ -1,7 +1,4 @@
-// LER TIMES
-let tabelaTimes = document.querySelector('.tabelaTimes tbody')
 
-// LER JOGOS
 
 let secaoJogos = document.querySelector('.secaoJogos')
 
@@ -10,14 +7,11 @@ const lerJogos = () => {
     .then( resposta => resposta.json() )
     .then( dados => dados.forEach((jogo, indice, jogos) => {
 
-        // criar a estrutura de divisoria
         let card = document.createElement('div')
         secaoJogos.appendChild(card)
 
-        // selecionar todos os cards
         let cards = document.querySelectorAll('.secaoJogos div')
 
-        // preencher os dados
         cards[indice].innerHTML = `
             <h3>Semana ${jogo.semana} | Rodada ${jogo.rodada}</h3>
             <h2>${jogo.dia} ${jogo.data}</h2>
@@ -26,7 +20,6 @@ const lerJogos = () => {
     }))
 }
 
-// funcao para gerar imagens dos times
 function gerarJogos(jogo) {
     let jogo1 = jogo.jogos[0].split(' ')
     let jogo2 = jogo.jogos[1].split(' ')
@@ -34,48 +27,51 @@ function gerarJogos(jogo) {
     let jogo4 = jogo.jogos[3].split(' ')
     let jogo5 = jogo.jogos[4].split(' ')
 
-    // esta dentro da div dentro da .secaoJogos*
     return this.innerHTML = `
-    <figure class='primeiraLinha'>
-        <span>13h</span>
+    <figure>
+        <span>% de vitória</span>
         <img class='logoJogos' src='./images/logos/${jogo1[0].toLowerCase()}.png' />
             VS
         <img class='logoJogos' src='./images/logos/${jogo1[2].toLowerCase()}.png' />
+        <span>% de vitória</span>
     </figure>
 
     <figure>
-        <span>14h</span>
+        <span>% de vitória</span>
         <img class='logoJogos' src='./images/logos/${jogo2[0].toLowerCase()}.png' />
             VS
         <img class='logoJogos' src='./images/logos/${jogo2[2].toLowerCase()}.png' />
+        <span>% de vitória</span>
     </figure>
         
     <figure>
-        <span>15h</span>
+        <span>% de vitória</span>
         <img class='logoJogos' src='./images/logos/${jogo3[0].toLowerCase()}.png' />
             VS
         <img class='logoJogos' src='./images/logos/${jogo3[2].toLowerCase()}.png' />
+        <span>% de vitória</span>
     </figure>
 
     <figure>
-        <span>16h</span>
+        <span>% de vitória</span>
         <img class='logoJogos' src='./images/logos/${jogo4[0].toLowerCase()}.png' />
             VS
         <img class='logoJogos' src='./images/logos/${jogo4[2].toLowerCase()}.png' />
+        <span>% de vitória</span>
     </figure>
 
     <figure>
-        <span>17h</span>
+        <span>% de vitória</span>
         <img class='logoJogos' src='./images/logos/${jogo5[0].toLowerCase()}.png' />
             VS
         <img class='logoJogos' src='./images/logos/${jogo5[2].toLowerCase()}.png' />
+        <span>% de vitória</span>
     </figure>
     `
 }
 
 lerJogos()
 
-// FILTRO
 let secaoJogo = document.querySelector('.secaoJogo')
 let filtro = []
 
@@ -85,17 +81,13 @@ const lerJogosDoDia = (data) => {
     .then( resposta => resposta.json() )
     .then( dados => dados.map((jogo, indice, jogos) => {
 
-        // filtrando os dados por data
         filtro = jogos.filter( jogo => (jogo.data == data) )
 
-        // criar a estrutura de divisoria
         let card = document.createElement('div')
         secaoJogo.appendChild(card)
 
-        // // selecionar todos o card
         let cards = document.querySelector('.secaoJogo div')
 
-        // // preencher os dados
         cards.innerHTML = `
             <h2>Jogos do dia</h2>
             <h3>Semana ${filtro[0].semana} | Rodada ${filtro[0].rodada}</h3>
@@ -108,9 +100,7 @@ const lerJogosDoDia = (data) => {
 function pegarData() {
     // manipular input e botao
     document.querySelector('#botaoBuscar').addEventListener('click', () => {
-        // selecionar dados do input
         let inputData = document.querySelector('.inputData').value
-        // console.log(inputData)
 
         let dataSeparada = inputData.split('-')
         let [ ano, mes, dia ] = dataSeparada
@@ -122,14 +112,10 @@ function pegarData() {
     })
 }
 
-//lerJogosDoDia('25/06/2022')
 pegarData()
 
-//// parte 09 ////
 let secaoCards = document.querySelector('.secaoCards')
-// console.log(secaoCards)
 
-// CARD
 const criarCards = (id) => {
     fetch('times.json')
     .then( resposta => resposta.json())
@@ -142,15 +128,12 @@ const criarCards = (id) => {
         console.log(time)
         document.querySelector('#nomeDoTime').innerHTML = time.nome_completo
 
-        // preencher dados nos cards
-        // nomes
         nomeJogador[0].innerHTML = `${time.escalacao.topo}`
         nomeJogador[1].innerHTML = `${time.escalacao.selva}`
         nomeJogador[2].innerHTML = `${time.escalacao.meio}`
         nomeJogador[3].innerHTML = `${time.escalacao.atirador}`
         nomeJogador[4].innerHTML = `${time.escalacao.suporte}`
 
-        // fotos e fundo
         let urlFoto = `./images/jogadores/${nomeTime}/`
         let fundo = document.querySelectorAll('.fundo')
         time.jogadores.forEach((jogador, indice) => {
@@ -163,7 +146,6 @@ const criarCards = (id) => {
 
 criarCards(0)
 
-/* controlar exibicao das escalacoes */
 document.querySelector('#botaoVer').addEventListener('click', (evento) => {
     evento.preventDefault()
     let timeEscolhido = document.querySelector('.selecionaTime').value
